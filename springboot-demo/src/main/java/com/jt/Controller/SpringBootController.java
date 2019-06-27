@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class SpringBootController {
-	
+	//
 	@RequestMapping("/hello")
 	@ResponseBody
 	public String hello() {
